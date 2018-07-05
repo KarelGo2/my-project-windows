@@ -1,11 +1,19 @@
 <template>
   <div id="app">
+      
+    	<runoob></runoob>
+      <child message="hello!"></child>
     <img src="./assets/logo.png">
+    
     <router-view/>
+    
   </div>
 </template>
 
 <script>
+
+
+
 export default {
   name: 'App'
 }
